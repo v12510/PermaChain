@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "build": "nest build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "docker:build": "docker build -t info-preserve-backend .",
+    "docker:run": "docker run -p 3000:3000 info-preserve-backend"
+  }
+}
